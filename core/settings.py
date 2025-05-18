@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # local app
     'blog.apps.BlogConfig',
     'taggit',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
